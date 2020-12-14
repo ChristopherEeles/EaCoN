@@ -4,8 +4,13 @@
 \alias{annotateRDS.Batch}
 \title{Batch wrapper for annotateRDS()}
 \usage{
-annotateRDS.Batch(all.fits, segmenter, nthread = 1,
-  cluster.type = "PSOCK", ...)
+annotateRDS.Batch(
+  all.fits,
+  segmenter,
+  nthread = 1,
+  cluster.type = "PSOCK",
+  ...
+)
 }
 \arguments{
 \item{all.fits}{Sample named-list of all samples containing two elements:
